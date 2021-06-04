@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website v1.2</title>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body>
+    <header class="container fixed-top d-flex justify-content-between bg-dark text-light mx-0 col-12">
+            <div class="d-flex ">
+                <img class="col-2" id="logo" src="assets/Food Tree Logo - White.png" alt="logo" >
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+                    <!-- Brand -->
+                    <a class="navbar-brand d-none d-sm-block" href="#">FOOD TREE PH</a>
+                  
+                    <!-- Toggler/collapsibe Button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                      <ul class="navbar-nav d-flex ">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                          <a class="nav-link" href="#">About Us</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+                                
+    </header>
+    <div id="main" class="text-light">
+        <div class="bg-secondary">Free delivery within Francisco Homes-1 CSJDM, 9AM-5PM Mondays to Fridays</div>
+        <br>
+
+    </div>
+
+    <footer class="bg-dark text-light">
+        <div class="d-flex flex-row flex-wrap">
+            <div class="container col-11 col-lg-3 px-3">
+                <div class="text-center text-warning">
+                    <h5>About Us!</h5>
+                </div> 
+                <div>
+                    <p class="text-justify">"Food Tree PH is an online store that originated from our very own produced product, "Achara Mama" which led us to sell other locally made products on our Shopee page. Available Items: Chicharon - Daboy Backfat, Dolores Rich-Jay Belly Skin Mushroom Chips/Chicharon by ButtonsUp Dolores Buchiron - Original and Spicy Best Selling Achara Mama - Papaya Achara"</p>
+                </div>
+            </div>
+            <div class="container col-12 col-lg-3 p-1 pb-5 ">
+                <div class="text-center text-warning">
+                    <h5>Connect and shop with us!</h5>
+                </div>
+                <div class="col-sm-5 mx-sm-auto col-lg-12">
+                    <div class="mb-2">
+                        <i class="fa fa-facebook text-light mr-2"></i>
+                        <a class="text-light" href="https://www.facebook.com/foodtreeph/">facebook.com/foodtreeph</a>
+                    </div>            
+                    <div class="mb-2">
+                        <a href="https://icon-library.net/icon/shopee-icon-4.html" title="Shopee Icon #419325"><img src="https://icon-library.net//images/shopee-icon/shopee-icon-4.jpg" width="16" width="16"/></a>
+                        <a class="text-light" href="https://shopee.ph/foodtreeph">shopee.ph/foodtreeph</a>
+                    </div>
+                    <div class="mb-2">
+                        <i class="fa fa-map text-light"></i>
+                        <a class="text-light" href="https://g.page/food-tree?share">Francisco Homes CSJDM Bulacan</a>
+                    </div>
+                    <div class="mb-2">
+                        <i class="fa fa-phone text-light"></i>
+                        <span>+639123456789</span>
+                    </div>
+                    <div class="mb-2">
+                        <i class="fa fa-envelope text-light"></i>
+                        <a class="text-light" href="mailto:foodtreefoodprocessing@gmail.com">Food Tree PH e-mail</a>
+                    </div>
+                </div>                
+            </div>
+            
+            <div class="container col-12 col-lg-6 p-2">           
+                <div class="text-center text-warning">
+                    <h5>Message Us!</h5>
+                </div>
+                <div class="row text-dark">
+                    <div class="col-lg-12 mx-auto">
+                        <div class="card-body bg-light p-1 small">
+                            <div class="container">
+                                <form id="contact-form" role="form">
+                                    <div class="controls">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label for="form_name">Firstname *</label>
+                                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group"> 
+                                                    <label for="form_lastname">Lastname *</label> 
+                                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required."> 
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group"> 
+                                                    <label for="form_email">Email *</label> 
+                                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required."> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-group"> 
+                                                    <label for="form_need">Concern *</label> 
+                                                    <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                                        <option value="" selected disabled>--Select Your Issue--</option>
+                                                        <option>Request Invoice for order</option>
+                                                        <option>Request order status</option>
+                                                        <option>Haven't received cashback yet</option>
+                                                        <option>Other</option>
+                                                    </select> 
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="form-group"> 
+                                                    <label for="form_message">Message *</label> 
+                                                    <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="2" required="required" data-error="Please, leave us a message."></textarea> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 col-lg-4 mx-auto"> <input type="submit" class="btn btn-success btn-send pt-2 btn-block " value="Send Message"> </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div> <!-- /.row-->
+                </div>
+            </div> 
+        </div>
+        <hr>
+        <div class="col-12 text-center p-3">
+            <h6>&copy;Food Tree PH</h6>
+        </div>
+    </footer>
+
+</body>
+</html>
