@@ -26,7 +26,7 @@
 
 </head>
 <body>
-    <header class="container fixed-top d-flex justify-content-between bg-dark text-light mx-0 col-12">
+    <header class="col-12 container fixed-top d-flex flex-row justify-content-between bg-dark text-light mx-0 p-2">
             <div class="d-flex ">
                 <img class="col-2" id="logo" src="assets/Food Tree Logo - White.png" alt="logo" >
                 <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
@@ -58,15 +58,25 @@
             </div>
                                 
     </header>
+
     <div id="main" class="text-light">
-        <div class="bg-secondary">Free delivery within Francisco Homes-1 CSJDM, 9AM-5PM Mondays to Fridays</div>
-        <br>
+        <div class="bg-secondary col-12">Free delivery within Francisco Homes-1 CSJDM, 9AM-5PM Mondays to Fridays</div>
+        <!-- <div class="col-10 mx-auto p-5">
+            <h3 class="text-dark text-center">Announcement</h3>
+            <div>
+                <img src="https://scontent.fmnl7-1.fna.fbcdn.net/v/t1.6435-0/s640x640/194838690_336142304773463_334179805020093453_n.png?_nc_cat=107&ccb=1-3&_nc_sid=730e14&_nc_ohc=vvNUmWsGqGIAX9nw2Qh&_nc_ht=scontent.fmnl7-1.fna&tp=30&oh=316011c48fc9e3a3b4e623d9733b1bda&oe=60E0ABF9" alt="food_tree_1_yr">
+            </div> -->
+            <div>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, sequi. Sapiente facere fugiat veniam cum, ipsam, consequatur magni eaque voluptatum inventore odio hic nostrum? Eos doloremque ullam et eaque impedit!
+            </div>
+
+        </div>
 
     </div>
 
     <footer class="bg-dark text-light">
         <div class="d-flex flex-row flex-wrap">
-            <div class="container col-11 col-lg-3 px-3">
+            <div class="container col-12 col-md-6 col-lg-3 px-3">
                 <div class="text-center text-warning">
                     <h5>About Us!</h5>
                 </div> 
@@ -74,11 +84,11 @@
                     <p class="text-justify">"Food Tree PH is an online store that originated from our very own produced product, "Achara Mama" which led us to sell other locally made products on our Shopee page. Available Items: Chicharon - Daboy Backfat, Dolores Rich-Jay Belly Skin Mushroom Chips/Chicharon by ButtonsUp Dolores Buchiron - Original and Spicy Best Selling Achara Mama - Papaya Achara"</p>
                 </div>
             </div>
-            <div class="container col-12 col-lg-3 p-1 pb-5 ">
+            <div class="container col-12 col-md-6 col-lg-3 p-1 pb-5 ">
                 <div class="text-center text-warning">
                     <h5>Connect and shop with us!</h5>
                 </div>
-                <div class="col-sm-5 mx-sm-auto col-lg-12">
+                <div class="col-sm-5 col-md-9 mx-sm-auto col-lg-12">
                     <div class="mb-2">
                         <i class="fa fa-facebook text-light mr-2"></i>
                         <a class="text-light" href="https://www.facebook.com/foodtreeph/">facebook.com/foodtreeph</a>
@@ -102,10 +112,10 @@
                 </div>                
             </div>
             
-            <div class="container col-12 col-lg-6 p-2">           
+            <div class="container col-12 col-lg-6 p-3">           
                 <div class="text-center text-warning">
                     <h5>Message Us!</h5>
-                </div>
+                </div> 
                 <div class="row text-dark">
                     <div class="col-lg-12 mx-auto">
                         <div class="card-body bg-light p-1 small">
@@ -113,27 +123,25 @@
                                 <form id="contact-form" role="form">
                                     <div class="controls">
                                         <div class="row">
-                                            <div class="col-md-4">
+                                            <div class="col-12 col-md-6 col-lg-4">
                                                 <div class="form-group">
                                                     <label for="form_name">Firstname *</label>
                                                     <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
                                                 </div>
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-12 col-md-6 col-lg-4">
                                                 <div class="form-group"> 
                                                     <label for="form_lastname">Lastname *</label> 
                                                     <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required."> 
                                                 </div>
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-12 col-md-6 col-lg-4">
                                                 <div class="form-group"> 
                                                     <label for="form_email">Email *</label> 
                                                     <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required."> 
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-4">
+                                            <div class="col-md-6 d-none d-md-block d-lg-none">
                                                 <div class="form-group"> 
                                                     <label for="form_need">Concern *</label> 
                                                     <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
@@ -145,7 +153,21 @@
                                                     </select> 
                                                 </div>
                                             </div>
-                                            <div class="col-md-8">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 d-md-none d-lg-block col-lg-4">
+                                                <div class="form-group"> 
+                                                    <label for="form_need">Concern *</label> 
+                                                    <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                                        <option value="" selected disabled>--Select Your Issue--</option>
+                                                        <option>Request Invoice for order</option>
+                                                        <option>Request order status</option>
+                                                        <option>Haven't received cashback yet</option>
+                                                        <option>Other</option>
+                                                    </select> 
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-8">
                                                 <div class="form-group"> 
                                                     <label for="form_message">Message *</label> 
                                                     <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="2" required="required" data-error="Please, leave us a message."></textarea> 
@@ -153,7 +175,7 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 col-lg-4 mx-auto"> <input type="submit" class="btn btn-success btn-send pt-2 btn-block " value="Send Message"> </div>
+                                            <div class="col-12 col-md-4 col-lg-4 mx-auto"> <input type="submit" class="btn btn-success btn-send pt-2 btn-block " value="Send Message"> </div>
                                         </div>
                                     </div>
                                 </form>
