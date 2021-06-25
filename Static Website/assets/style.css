@@ -5,20 +5,21 @@
     overflow-x: hidden;
 }
 
-/* html {
-    scroll-padding-top: 160px;
-} */
+main { 
+    padding-top: 168px;
+}
+
 
 header {
     width: 100vw;
 }
 
-.bgYellow {
+.bg-yellow {
     background-color: #ffc51b;
 
 }
 
-.textYellow {
+.text-yellow {
     color: #ffc51b;
 }
 
@@ -51,21 +52,12 @@ a:active {
 }
 
 
-a {
-    padding-top: 160px;
-}
-
-@media only screen and (max-width: 310px) {
-    #main { 
-        padding-top: 168px;
-    }
-}
 
 @media only screen and (min-width: 311px) and (max-width: 551px) {
     html {
         scroll-padding-top: 132.44px;
     }
-    #main { 
+    main { 
         padding-top: 132.44px;
     }
 }
@@ -74,7 +66,7 @@ a {
     html {
         scroll-padding-top: 109.44px;
     }
-    #main { 
+    main { 
         padding-top: 109.44px;
     }
 }
@@ -83,7 +75,7 @@ a {
     html {
         scroll-padding-top: 164px;
     }
-    #main { 
+    main { 
         padding-top: 164px;
     } 
 }
@@ -92,7 +84,7 @@ a {
     html {
         scroll-padding-top: 140px;
     }
-    #main { 
+    main { 
         padding-top: 140px;
     }
 }
@@ -101,7 +93,7 @@ a {
     html {
         scroll-padding-top: 105.44px;
     }
-    #main { 
+    main { 
         padding-top: 105.44px;
     }
 }
