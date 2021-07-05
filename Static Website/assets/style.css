@@ -51,6 +51,23 @@ a:active {
     text-decoration: none; 
 }
 
+#contact img {
+    height: 16px;
+}
+
+#testimonials img {
+    width: 48px;
+    height: 48px;
+}
+
+.testi {
+    border: 1px solid black;
+}
+
+.contact-background {
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(255, 197, 27), rgb(255,255,255), rgb(255,255,255), rgb(255, 197, 27));
+}
 
 
 @media only screen and (min-width: 311px) and (max-width: 551px) {
