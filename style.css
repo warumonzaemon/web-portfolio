@@ -175,9 +175,21 @@ a p {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+
+    }
+
+    .apps-sub {
+        width: 30vw;
+        min-height: 15vw;
     }
 
     .apps a {
         width: 40%;
+        min-height: 100%;
+
+    }
+
+    .apps a:hover {
+        transform: scale(1.05);
     }
 }
