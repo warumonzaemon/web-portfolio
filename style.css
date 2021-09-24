@@ -39,6 +39,7 @@ a {
     flex-direction: column;
     align-items: center;
     transition: .5s;
+    font-family: 'Poppins', sans-serif;
 }
 
 a.nav-link:hover {
@@ -123,6 +124,16 @@ li:hover {
     text-align: justify;
 }
 
+.app-thumbnail {
+    width: 50%;
+    margin: 1% auto;
+    display: block;
+}
+
+a p {
+    margin: 1% 10% 10% 10%;
+}
+
 @media (min-width: 576px) {
     nav {
         width: 20%;
@@ -158,5 +169,15 @@ li:hover {
         text-align: center;
         font-size: 8vw;
         font-family: 'Poppins', sans-serif;
+    }
+
+    .apps {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .apps a {
+        width: 40%;
     }
 }
