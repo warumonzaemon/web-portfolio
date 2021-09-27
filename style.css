@@ -137,8 +137,10 @@ li:hover {
 }
 
 a p {
-    margin: 1% 10% 10% 10%;
+    margin: 1%;
 }
+
+
 
 @media (min-width: 576px) {
     nav {
@@ -198,4 +200,5 @@ a p {
     .apps a:hover {
         transform: scale(1.05);
     }
+    
 }
