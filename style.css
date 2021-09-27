@@ -122,12 +122,18 @@ li:hover {
     font-family: 'Mukta Mahee', sans-serif;
     margin: 5px auto;
     text-align: justify;
+    
+}
+
+.apps-sub {
+    vertical-align: middle;
 }
 
 .app-thumbnail {
     width: 50%;
     margin: 1% auto;
     display: block;
+    
 }
 
 a p {
