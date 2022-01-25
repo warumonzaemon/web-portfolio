@@ -35,6 +35,7 @@ nav {
 ul {
     margin: 5px auto;
 }
+
 a {
     color: white;
     text-decoration: none;
@@ -71,16 +72,43 @@ h1 {
     font-family: 'Poppins', sans-serif;
 }
 
-.introduction {
+.skills {
+    width: 80%;
     font-family: 'Mukta Mahee', sans-serif;
-    margin: 2%;
+    margin: 5px auto;
+}
+
+.skills-sub {
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+h3 {
+    text-align: left;
+    font-family: 'Mukta Mahee', sans-serif;
+    /* margin: auto 10%; */
+}
+
+.footer {
+    background-color: black;
+    padding-bottom: 1%;
+}
+
+
+h2 {
+    font-family: 'Mukta Mahee', sans-serif;
     text-align: center;
+    text-decoration: underline;
 }
 
 ul {
-    width: 80%;
+    /* width: 80%; */
+    /* position:absolute;
+    bottom: 1.1vw; */
     margin: 5px auto;
     padding: 5px auto;
+    background-color: black;
 }
 
 li {
@@ -95,6 +123,8 @@ li {
     font-family: 'Mukta Mahee', sans-serif;
 }
 
+
+
 li:hover {
     cursor: pointer;
 }
@@ -103,6 +133,7 @@ li:hover {
     padding-right: 0 10px;
     width: 30px; 
     text-align:right;
+    margin-top: 3%;
 }
 
 .li-right {
@@ -120,12 +151,30 @@ li:hover {
 
 }
 
+.services {
+    margin-bottom: 10%;
+
+}
+
+.service-list {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Mukta Mahee', sans-serif;
+
+}
+
 .summary {
     width: 80%;
     font-family: 'Mukta Mahee', sans-serif;
     margin: 5px auto;
     text-align: justify;
     
+}
+
+.author {
+    text-align: center;
+    font-family: 'Mukta Mahee', sans-serif;
 }
 
 .apps-sub {
@@ -139,12 +188,26 @@ li:hover {
     
 }
 
+.languages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.language-thumbnail {
+    width: 10%;
+    margin: 1%;
+}
+
 a p {
     margin: 1%;
+    text-align: center;
 }
 
 .app-link {
     margin-bottom: 5%;
+    width: 100%;
 }
 
 .crosswise {
@@ -176,8 +239,6 @@ a p {
     }
 
 
-
-
     .profile {
         display: block;
         width: 100%;
@@ -192,9 +253,43 @@ a p {
         margin: 1%;
         margin-top: .5%;
         text-align: center;
-        font-size: 8vw;
+        font-size: 4vw;
         font-family: 'Poppins', sans-serif;
     }
+
+    .footer-sub {
+        display: flex;
+        max-height: 120px;
+    }
+
+    .services {
+        width: 33%;
+    }
+
+    .contact {
+        width: 66%;
+    }
+
+    .contact-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0%;
+    }
+
+    .contact-list-sub {
+        width: 50%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .icon-contact {
+       width: 20px; 
+    }
+
+    .li-right {
+        font-size: 1.2vw;
+    }
+    
 
     .apps {
         display: flex;
@@ -203,16 +298,20 @@ a p {
 
     }
 
+    .app-link {
+        width: 45%;
+        padding: auto;
+    }
+
     .apps-sub {
         width: 30vw;
         min-height: 15vw;
     }
 
-    .apps a {
-        width: 40%;
+/*     .apps a {
         min-height: 100%;
 
-    }
+    } */
 
     .apps a:hover {
         transform: scale(1.05);
