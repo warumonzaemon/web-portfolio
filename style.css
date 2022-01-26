@@ -75,19 +75,53 @@ h1 {
 .skills {
     width: 80%;
     font-family: 'Mukta Mahee', sans-serif;
-    margin: 5px auto;
+    padding: 1%;
+    margin: 0px auto 5% auto;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .skills-sub {
-    display: flex;
-    justify-content: space-between;
+   /*  display: flex; */
     margin: 3%;
+    margin-bottom: 10%;
 }
 
+.skill-sub-sub {
+    text-align: center;
+}
+
+.skill-thumbnail {
+    width: 5%;
+    position: relative;
+    top: 8%;
+}
+
+.skill-thumbnail-api {
+    width: 15%;
+    position: relative;
+    top: 3%;
+}
+
+
+.skill-level {
+    text-align:center;
+}
+
+
 h3 {
+    width: 80%;
+    font-family: 'Mukta Mahee', sans-serif;
+    padding: 1%;
     text-align: left;
+    margin: 5px auto 0 auto;
     font-family: 'Mukta Mahee', sans-serif;
     /* margin: auto 10%; */
+    background-color: #0e95eb;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
 }
 
 .footer {
@@ -200,6 +234,16 @@ li:hover {
     margin: 1%;
 }
 
+.bootstrap-thumbnail {
+    width: 12%;
+    margin: 1%;
+}
+
+.api-thumbnail {
+    margin: 1%;
+    width: 35%;
+}
+
 a p {
     margin: 1%;
     text-align: center;
@@ -213,6 +257,41 @@ a p {
 .crosswise {
     margin: 10% auto;
 }
+
+@media (min-width: 470px) {
+    .skills-sub {
+        display: flex;
+        justify-content: space-between;
+        margin: 3%;
+    }
+    
+    .skill-sub-sub {
+        width: 60%;
+        text-align: start;
+    }
+    
+    .skill-thumbnail {
+        width: 5%;
+        position: relative;
+        top: 8%;
+    }
+    
+    .skill-thumbnail-api {
+        width: 15%;
+        position: relative;
+        top: 3%;
+    }
+    
+    
+    .skill-level {
+        width: 40%;
+        text-align: end;
+    }
+    
+}
+
+
+
 
 
 
