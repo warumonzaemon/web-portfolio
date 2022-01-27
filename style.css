@@ -8,8 +8,15 @@
 
 body {
     color: white;
-    /* background-image: url('./assets/images/cat_universe.jpg'); */
-    background-color: rgb(54,57,63);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.2)
+      ),url('assets/images/5651980.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    /* background-color: rgb(54,57,63); */
     display: flex;
     flex-wrap: wrap;
     height: 100%;
@@ -70,6 +77,7 @@ h1 {
     text-align: center;
     font-size: 16vw;
     font-family: 'Poppins', sans-serif;
+    color: #ffffff;
 }
 
 .skills {
@@ -80,6 +88,9 @@ h1 {
     background-color: black;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    opacity: 0.9;
+
+
 }
 
 .skills-sub {
@@ -90,12 +101,19 @@ h1 {
 
 .skill-sub-sub {
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .skill-thumbnail {
     width: 5%;
-    position: relative;
-    top: 8%;
+/*     position: relative;
+    top: 8%; */
+}
+
+.skill-name {
+    margin-left: 2%;
 }
 
 .skill-thumbnail-api {
@@ -118,7 +136,7 @@ h3 {
     margin: 5px auto 0 auto;
     font-family: 'Mukta Mahee', sans-serif;
     /* margin: auto 10%; */
-    background-color: #0e95eb;
+    background-color: rgba(14, 149, 235, 0.7);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     text-align: center;
@@ -213,14 +231,17 @@ li:hover {
 }
 
 .apps-sub {
-    vertical-align: middle;
+    vertical-align: bottom;
+}
+
+.small {
+    padding-top: 10%;
 }
 
 .app-thumbnail {
     width: 50%;
     margin: 1% auto;
-    display: block;
-    
+    display: block;  
 }
 
 .languages {
@@ -256,10 +277,16 @@ a p {
 }
 
 .crosswise {
-    margin: 10% auto;
+    margin: 10% auto 1% auto;
 }
 
 @media (min-width: 470px) {
+    .skills {
+        background-image: url('assets/images/wallpaper.png');
+        background-size: cover;
+        background-position: center center;
+    }
+
     .skills-sub {
         display: flex;
         justify-content: space-between;
@@ -269,6 +296,7 @@ a p {
     .skill-sub-sub {
         width: 60%;
         text-align: start;
+        justify-content: flex-start;
     }
     
     .skill-thumbnail {
@@ -290,10 +318,6 @@ a p {
     }
     
 }
-
-
-
-
 
 
 @media (min-width: 576px) {
@@ -398,3 +422,10 @@ a p {
     }
     
 }
+
+@media (min-width: 1000px) {
+    body {
+        background-position-y: 80%;
+    }
+}
+
