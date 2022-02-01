@@ -164,7 +164,7 @@ li {
     padding:1% 0;
     transition: .5s;
     margin: 1% auto;
-    max-width: 300px;
+/*     max-width: 300px; */
     margin: 5px auto;
     /* font-size: 5vw; */
     font-family: 'Poppins', sans-serif;
@@ -184,10 +184,10 @@ li:hover {
 }
 
 .li-right {
-    width: 260px;
+    max-width: 260px;
     padding-left: 10px;
     text-align: left;
-    font-size: 1rem;
+    font-size: 15px;
     display: flex;
     justify-content: flex-start;
 
@@ -208,6 +208,11 @@ li:hover {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
 
+}
+
+.contact-list-sub {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .summary {
@@ -335,9 +340,11 @@ a p {
     }
 
     .main {
+
         width: 80%;
         margin-left: 20%;
     }
+
 
     .nav-link {
         margin-top: 25px;
@@ -363,27 +370,15 @@ a p {
 
     .footer-sub {
         display: flex;
-        max-height: 120px;
     }
 
     .services {
         width: 33%;
+        margin-bottom: 0;
     }
 
     .contact {
         width: 66%;
-    }
-
-    .contact-list {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 0%;
-    }
-
-    .contact-list-sub {
-        width: 50%;
-        margin: 0 auto;
-        padding: 0;
     }
 
     .icon-contact {
@@ -391,7 +386,7 @@ a p {
     }
 
     .li-right {
-        font-size: 1.2vw;
+        font-size: 15px;
     }
     
 
@@ -418,9 +413,51 @@ a p {
     
 }
 
+
+@media (min-width: 900px) {
+    .contact-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0%;
+    }
+
+    .contact-list-sub {
+        width: 50%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+}
+
 @media (min-width: 1000px) {
     body {
         background-position-y: 80%;
     }
 }
 
+@media (min-width: 1300px)  {
+    .services {
+        margin: 0 auto;
+    }
+    .contact {
+        width: 35em;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 2000px) {
+    .contact {
+        width: 100em;
+    }
+
+    .contact-list {
+        justify-content: center;
+    }
+
+    .contact-list-sub {
+        width: 25%;
+    }
+
+    .li-right {
+        width: fit-content;
+    }
+}
