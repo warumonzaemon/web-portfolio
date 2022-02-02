@@ -326,16 +326,6 @@ a p {
 }
 
 
-/* @media (min-height: 890px) {
-  .footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-} */
-
-
 @media (min-width: 576px) {
     nav {
         width: 20%;
@@ -350,18 +340,11 @@ a p {
     }
 
     .main {
-        height: 100vh;
-        position: relative;
+
         width: 80%;
         margin-left: 20%;
     }
 
-    .footer {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-    }
 
     .nav-link {
         margin-top: 25px;
