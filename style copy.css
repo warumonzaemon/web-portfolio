@@ -326,6 +326,51 @@ a p {
 }
 
 
+/* @media (min-width: 576px) and (max-width: 850px)  and (min-height: 890px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+} */
+
+@media (min-width: 576px) and /* (max-width: 850px)  and  */(min-height: 890px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+
+@media (min-width: 900px) {
+  .contact-list {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 0%;
+  }
+
+  .contact-list-sub {
+      width: 50%;
+      margin: 0 auto;
+      padding: 0 auto;
+  }
+
+
+}
+
+@media (min-width: 1200px) and (min-height: 890px) {
+  .footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+
 @media (min-width: 576px) {
     nav {
         width: 20%;
@@ -340,7 +385,8 @@ a p {
     }
 
     .main {
-
+        height: 100vh;
+        position: relative;
         width: 80%;
         margin-left: 20%;
     }
@@ -414,19 +460,7 @@ a p {
 }
 
 
-@media (min-width: 900px) {
-    .contact-list {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 0%;
-    }
 
-    .contact-list-sub {
-        width: 50%;
-        margin: 0 auto;
-        padding: 0 auto;
-    }
-}
 
 @media (min-width: 1000px) {
     body {
