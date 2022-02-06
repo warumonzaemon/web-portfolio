@@ -30,16 +30,8 @@ nav {
   font-family: "Open Sans", sans-serif;
 }
 
-.footer {
-  width: 100vh;
-}
-
 .profile {
   display: none;
-}
-
-ul {
-  margin: 5px auto;
 }
 
 a {
@@ -133,6 +125,7 @@ h3 {
 }
 
 .footer {
+  width: 100vh;
   background-color: black;
   padding-bottom: 1%;
   padding-top: 2%;
@@ -147,7 +140,6 @@ h2 {
 ul {
   margin: 5px auto;
   padding: 5px auto;
-  background-color: black;
 }
 
 li {
@@ -312,7 +304,8 @@ a p {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #0e95eb;
+    /* background-color: #0e95eb; */
+    background-image: linear-gradient(180deg, #0e95eb, black);
     padding: 0;
     font-family: "Poppins", sans-serif;
     height: 100vh;
@@ -347,6 +340,7 @@ a p {
   .footer {
     width: 80%;
     margin-left: 20%;
+    
   }  
 
   .footer-sub {
@@ -439,9 +433,14 @@ a p {
   }
 }
 
-@media (min-width: 576px) and (min-height: 1500px) {
+@media (min-width: 576px) and (min-height: 1024px) {
   .apps {
     padding-bottom: 50px;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
   }
 }
 
