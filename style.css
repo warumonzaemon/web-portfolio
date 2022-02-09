@@ -19,6 +19,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
+  position: relative;
 }
 
 nav {
@@ -439,7 +440,6 @@ a p {
   }
 
   .footer {
-    position: absolute;
     bottom: 0;
   }
 }
@@ -448,4 +448,5 @@ a p {
   .apps {
     margin-bottom: 200px;
   }
+
 }
